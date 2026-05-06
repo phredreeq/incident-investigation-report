@@ -94,13 +94,13 @@ in under 5 minutes. This speed is consistent with
 automated brute force software, not manual attempts.
 
 ### Finding 2 — Privileged Account Targeted
-The attacker specifically targeted the admin account —
-the highest privilege level on the system, maximizing
+The attacker specifically targeted the admin account because it is the
+the highest privilege level on the system, however, this maximizes
 potential damage if access was gained.
 
 ### Finding 3 — Off-Hours Activity
-The attack occurred at 02:00AM — outside normal business 
-hours. This is a common technique to avoid detection by 
+The attack occurred at 02:00AM, this is outside normal business 
+hours and it is a common technique to avoid detection by 
 security teams.
 
 ### Finding 4 — Second Suspicious IP
@@ -161,4 +161,5 @@ confirming the admin account was compromised.
 
 ## 👤 Analyst
 Fredrick Agufenwa
+
 Cybersecurity Student | SOC & Threat Detection
