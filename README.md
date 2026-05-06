@@ -48,6 +48,7 @@ authentication logs.
 ### Evidence 1 — Failed Login Attempts
 **Query Used:**
 index=main source="windows_auth_logs.csv" event_id=4625
+
 **Result:** 60+ failed login events from IP 192.168.1.105
 
 ---
@@ -58,6 +59,7 @@ index=main source="windows_auth_logs.csv" event_id=4625
 | stats count by ip_address
 | where count > 5
 | sort -count
+
 **Result:**
 | IP Address | Failed Attempts |
 |---|---|
@@ -74,6 +76,7 @@ count(eval(event_id="4624")) as successes
 by ip_address
 | where failures > 5 AND successes > 0
 | sort -failures
+
 **Result:**
 
 | IP Address | Failures | Successes |
