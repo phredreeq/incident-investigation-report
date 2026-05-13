@@ -1,9 +1,9 @@
-# 🔍 Incident Investigation Report
+# Incident Investigation Report
 ## Suspicious Authentication Activity — Brute Force Attack
 
 ---
 
-## 📌 Overview
+## Overview
 | Field | Details |
 |---|---|
 | **Report Date** | January 15, 2024 |
@@ -14,7 +14,7 @@
 
 ---
 
-## 📋 Executive Summary
+## Executive Summary
 On January 15, 2024, at approximately 02:00AM, a 
 suspicious authentication event was detected against 
 the admin account. An external IP address (192.168.1.105) 
@@ -32,7 +32,7 @@ authentication logs.
 
 ---
 
-## ⏱️ Timeline of Events
+## Timeline of Events
 
 | Time (UTC) | Event | Event ID |
 |---|---|---|
@@ -43,7 +43,7 @@ authentication logs.
 
 ---
 
-## 🔎 Evidence
+## Evidence
 
 ### Evidence 1 — Failed Login Attempts
 **Query Used:**
@@ -86,7 +86,7 @@ by ip_address
 
 ---
 
-## 🧠 Analysis
+## Analysis
 
 ### Finding 1 — Automated Attack Pattern
 The attacker IP generated 60+ failed login attempts 
@@ -114,7 +114,7 @@ confirming the admin account was compromised.
 
 ---
 
-## ✅ Conclusion & Recommendations
+## Conclusion & Recommendations
 
 ### Immediate Actions
 | Priority | Action |
@@ -135,7 +135,7 @@ confirming the admin account was compromised.
 
 ---
 
-## 📸 Evidence Screenshots
+## Evidence Screenshots
 
 
 ![Query 1 - All Failures](screenshots/query1_all_failures.png)
